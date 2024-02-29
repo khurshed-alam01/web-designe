@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+.container{
+    width: 85%;
+    margin: 0 auto;
+}
+:root{
+    --primary-color:#ED1262
+}
+/* -------------- */
+
+/* header section start */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #000;
+    min-height: 60px;
+}
+header .logo{
+    
+}
+header .logo img{
+    padding: 10px;
+    margin-top: 8px;
+    margin-left: 50px;
+   
+}
+header nav{}
+header nav ul{}
+header nav ul li{
+    display: inline-block;
+    font-size: 30px;
+    padding: 15px;
+    margin-top: 5px;
+    
+}
+/* submenu hreader start */
+header nav ul li.submenuheader{}
+header nav ul li.submenuheader ul.submenu{
+    display: none;
+    
+}
+header nav ul li.submenuheader:hover ul.submenu{
+    display: block;
+    position: absolute;
+    background-color: #000;
+  
+}
+header nav ul li.submenuheader ul.submenu li{
+    display: block;
+    border-bottom: 1px solid var(--primary-color);
+    
+}
+/* submenu hreader end */
+
+header nav ul li a{
+    color:#fff;
+}
+header nav ul li a.active{
+    color:var(--primary-color);
+}
+header nav ul li a:hover{}
+header .auth{
+    margin-top: 15px;
+    margin-right: 50px;
+}
+header .auth button{
+    border: none;
+    padding: 10px 30px;
+    font-size: 20px;
+    background: transparent;
+    color: #fff;
+    border: 1px solid var(--primary-color);
+    border-radius: 10px;
+    cursor: pointer;
+}
+/* header section end */
+
+/* banar section start */
+.banar{
+    height:90vh ;
+    background: url(../image/bodyfit.jpg) no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+.banar .bg_shawdo{
+    height:75vh ;
+    background-color: #00000057;
+    padding-top: 50px;
+}
+.banar .bg_shawdo h1{
+    font-size: 100px;
+    text-transform: uppercase;
+}
+.banar .bg_shawdo h2{
+    font-size: 70px;
+    text-transform: uppercase;
+    color: var(--primary-color);
+}
+.banar .bg_shawdo p{
+    font-size: 30px;
+}
+.banar .bg_shawdo .d-flix{
+    margin-top: 70px;
+}
+.banar .bg_shawdo .d-flix button{
+    border: none;
+    padding: 15px 30px;
+    font-size: 20px;
+    background: var(--primary-color);
+    color: #fff;
+    text-transform:uppercase;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-right: 50px;
+}
+.banar .bg_shawdo .d-flix span:nth-child(2){
+    color: var(--primary-color);
+}
+.banar .bg_shawdo .d-flix span{font-size: 25px;}
+
+
+/* banar section end */
+
+        /* b box section start */
+.b-box{
+  display: inline-block; 
+  display: flex; 
+  margin-top: 50px;
+  /* padding: 5px; */
+}
+.b-box .box{
+    height:200px;
+    width: 300px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    border-radius: 10px;
+    
+}
+.circle-1{
+    height: 100px;
+    width: 100px;
+    border: 15px solid #D1D1D1;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    color: var(--primary-color);
+    
+    
+}
+/* .circle-2{
+    height: 100px;
+    width: 100px;
+    border: 1px solid #000;
+    border-radius: 50%;
+} */
+
+.box .bar{
+    height: 5px;
+    width: 50%;
+    background: var(--primary-color);
+    
+}
+
+
+
+
+
+
+
+
+/* position: relative;
+display: flex;
+flex-direction: column;
+min-width: 0;
+word-wrap: break-word;
+background-color: #fff;
+background-clip: border-box;
+border: 1px solid rgba(0, 0, 0, .125); */
+
